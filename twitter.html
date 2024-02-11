@@ -1,0 +1,388 @@
+<head>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="description" content="Twitter Clone">
+    <meta name="keywords" content="social media, LinkedIn, tweets, news">
+    <meta name="author" content="Your Name">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="./twitter.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <i class="fa-brands fa-twitter"></i>
+                <div class="input-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input placeholder="Explore"/>
+                </div>
+            </div>
+
+            <div class="nav-right">
+                <a href="/">
+                    <i class="fa-solid fa-house"></i>
+                </a>
+        
+                <a href="/">
+                    <i class="fa-solid fa-bookmark"></i>
+                </a>
+
+                <a href="/">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+
+                <a href="/">
+                    <i class="fa-solid fa-bell"></i>
+                </a>
+
+                <div class="twitter-blue">
+                    <p>Twitter Blue</p>
+                </div>
+
+            </div>
+        </nav>
+      
+    </header>
+    <main>
+        <div class="sidebar">
+            <div class="profile">
+                <div class="profile-header">
+                    <img src="https://media.licdn.com/dms/image/D5603AQFjfY5vKaNAVw/profile-displayphoto-shrink_400_400/0/1707573228267?e=1713398400&v=beta&t=fH1uiZm3NeYUdiOukn9c59_v2IbKxnKv0-4TZ1Gdu_8" alt="Profile Image" />
+                </div>
+                <div class="profile-body">
+                    <div class="profile-info">
+                        <h1>Tejmul Movin</h1>
+                        <h2>@Spylook</h1>
+                        <p>Writes about tech and design</p>
+                    </div>
+            
+                    <hr/>
+            
+                    <div class="stat-box">
+                        <div>
+                            <h3>100</h3>
+                            <p>Following</p>
+                        </div>
+                        <hr id="stat-partition"/>
+                        <div>
+                            <h3>1M</h3>
+                            <p>Followers</p>
+                        </div>
+                    </div>
+            
+                    <hr/>
+            
+                    <div class="my-profile">
+                        <p> My Profile</p>
+                    </div>
+            
+                </div>
+            </div>
+        
+            <div class="follow-sugggestion">
+                <h4>Who is to follow you</h4>
+        
+                <div class="follow-profile">
+                    <img src="https://media.sproutsocial.com/uploads/2022/06/profile-picture.jpeg"/>
+                    <div class="follow-info">
+                        <h5>AlphaX</h5>
+                        <p>@alphax</p>
+                    </div>
+                    <div class="follow-btn">
+                        Follow
+                    </div>
+                </div>
+        
+                <div class="follow-profile">
+                    <img src="https://i.pinimg.com/474x/bf/e9/89/bfe989b690e9674b5b00e78c4c1aa2dc.jpg"/>
+                    <div class="follow-info">
+                        <h5>Pearson Mike</h5>
+                        <p>@pearsonmike</p>
+                    </div>
+                    <div class="follow-btn">
+                        Follow
+                    </div>
+                </div>
+        
+                <div class="follow-profile">
+                    <img src="https://1fid.com/wp-content/uploads/2022/07/aesthetic-profile-picture-2-1024x1024.jpg"/>
+                    <div class="follow-info">
+                        <h5>Albert Snow</h5>
+                        <p>@albertsnow</p>
+                    </div>
+                    <div class="follow-btn">
+                        Follow
+                    </div>
+                </div>
+        
+                <div class="show-more">
+                    Show more
+                </div>
+            </div>
+        </div>
+        
+        <div class="posts-section">
+            <div class="posts">
+                <div class="posts-creation">
+                    <div class="post-input">
+                        <img src="https://media.licdn.com/dms/image/D5603AQFjfY5vKaNAVw/profile-displayphoto-shrink_400_400/0/1707573228267?e=1713398400&v=beta&t=fH1uiZm3NeYUdiOukn9c59_v2IbKxnKv0-4TZ1Gdu_8" alt="Profile Image" />
+                        <input placeholder="What's happening?"></input>
+                    </div>
+                    <div class="post-types">
+                        <div class="type">
+                            <i class="fa-sharp fa-regular fa-image"></i>
+                            <p>Photo</p>
+                        </div>
+        
+                        <div class="type">
+                            <i class="fa-regular fa-circle-play"></i>
+                            <p>Video</p>
+                        </div>
+        
+                        <div class="type">
+                            <i class="fa-solid fa-list"></i>
+                            <p>Thread</p>
+                        </div>
+        
+                        <div class="type">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <p>Schedule</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="posts">
+                <div class="post-head">
+                    <div  class="post-user">
+                        <img src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-1229892983-square.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*">
+                        <div>
+                            <div class="user">
+                                <h6>Elon Musk</h6>
+                                <p>@elonmusk</p>
+                                <p>2h</p>
+                            </div>
+                            <div class="post-content">
+                                <p>
+                                    Once you have tasted the full phone to car and technological experience of a Tesla you can not go back to any other cars. 
+                                    There is nothing like it on the market by a mile. It is all the small things that quickly adds up to make you never want to drive anything else, ever.
+                                </p>
+                            </div>  
+                            <div class="react">
+                                <div>
+                                    <i class="fa-sharp fa-regular fa-comment"></i>
+                                    <p>1,643</p>
+                                </div>
+                                <div>
+                                    <i class="fa-regular fa-heart"></i>
+                                    <p>2,345</p>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-retweet"></i>
+                                    <p>556</p>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-chart-simple"></i>
+                                    <p>12.2k</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="posts">
+                <div class="post-head">
+                    <div  class="post-user">
+                        <img src="https://yt3.googleusercontent.com/lVEb1IUc9D8dZSQF4l8IlBWGjr636qaDHfMbzud0uv_LxdhiMeHtsuvUcSvJa86pWzJd9MCUeQ=s900-c-k-c0x00ffffff-no-rj">
+                        <div>
+                            <div class="user">
+                                <h6>The Verge</h6>
+                                <p>@theverge</p>
+                                <p>1h</p>
+                            </div>
+                            <div class="post-content">
+                                <p>
+                                    OpenAI will start using Bing as the default search engine for ChatGPT:
+                                </p>
+                                <iframe width="100%" height="300" src="https://www.youtube.com/embed/8J-V3J3CBes" title="Microsoft Build event in 5 minutes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>  
+                            <div class="react">
+                                <div>
+                                    <i class="fa-sharp fa-regular fa-comment"></i>
+                                    <p>1,643</p>
+                                </div>
+                                <div>
+                                    <i class="fa-regular fa-heart"></i>
+                                    <p>2,345</p>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-retweet"></i>
+                                    <p>556</p>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-chart-simple"></i>
+                                    <p>12.2k</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="posts">
+                <div class="post-head">
+                    <div  class="post-user">
+                        <img src="https://pbs.twimg.com/profile_images/1488548719062654976/u6qfBBkF_400x400.jpg">
+                        <div>
+                            <div class="user">
+                                <h6>Twiiter</h6>
+                                <p>@twiiter</p>
+                                <p>1h</p>
+                            </div>
+                            <div class="post-content">
+                                <p>
+                                   Are you all enjoying the new updates in the platform? Fill the form and let us know
+                                </p>
+                            </div>  
+                            <div class="react">
+                                <div>
+                                    <i class="fa-sharp fa-regular fa-comment"></i>
+                                    <p>1,643</p>
+                                </div>
+                                <div>
+                                    <i class="fa-regular fa-heart"></i>
+                                    <p>2,345</p>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-retweet"></i>
+                                    <p>556</p>
+                                </div>
+                                <div>
+                                    <i class="fa-solid fa-chart-simple"></i>
+                                    <p>12.2k</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="trending">
+            <div class="trend-header">
+                <h4>Trend for you</h4>
+                <i class="fa-solid fa-arrow-trend-up"></i>
+            </div>
+    
+            <div class="trend-category">
+                <h3>TRENDING IN INDIA</h3>
+                <div class="trend">
+                    <div>
+                        <h4>#t20WordCup</h4>
+                        <p>97.7k Tweets</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+    
+                <div class="trend">
+                    <div>
+                        <h4>#LokSabhaElections</h4>
+                        <p>77.2k Tweets</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+    
+                <div class="trend">
+                    <div>
+                        <h4>#dhoni</h4>
+                        <p>49.2k Tweets</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+    
+                <hr />
+            </div>
+    
+            <div class="trend-category">
+                <h3>TRENDING IN WEB3</h3>
+                <div class="trend">
+                    <div>
+                        <h4>#nfts</h4>
+                        <p>34.7k Tweets</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+    
+                <hr />
+            </div>
+    
+            <div class="trend-category">
+                <h3>TRENDING IN BUISNESS</h3>
+    
+                <div class="trend">
+                    <div>
+                        <h4>#nifty</h4>
+                        <p>23.1k Tweets</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="show-more">
+                Show more
+            </div>
+        </div>
+    </main>
+    <div class="chat-container">
+        <div class="chat-box">
+            <div class="chat-header">
+                <h3>Messages</h3>
+                <button class="close-button">&#10005;</button>
+            </div>
+            <div class="chat-card">
+                <img src="https://media.sproutsocial.com/uploads/2022/06/profile-picture.jpeg" class="profile-image" alt="Profile Image">
+                <div class="chat-content">
+                    <h4 class="sender-name">John Doe</h4>
+                    <p class="chat-message">Hey, how's it going?</p>
+                </div>
+            </div>
+            <div class="chat-card">
+                <img src="https://wallpapers.com/images/hd/cool-profile-picture-l0hzjr9omwan07nt.jpg" class="profile-image" alt="Profile Image">
+                <div class="chat-content">
+                    <h4 class="sender-name">Jane Smith</h4>
+                    <p class="chat-message">Saw your recent tweet on the current AI trends</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
